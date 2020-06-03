@@ -18,6 +18,7 @@ a {
 @media only screen and (min-width: 768px){
   #twocolumns {display: flex;}
   aside {flex: 50%; padding-left: 1em;}
+  nav ul {justify-content: flex-end;}
 }
 /* Nav Bar */
 nav{
@@ -27,7 +28,7 @@ nav{
 nav ul {
     width: 100%;
     display: inline-flex;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 nav a {
   padding: 1em;
