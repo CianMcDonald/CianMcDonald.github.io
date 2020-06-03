@@ -1,0 +1,64 @@
+
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+:root {
+  --main-color: #0099ff;
+}
+@media only screen and (min-width: 768px){
+  #twocolumns {display: flex;}
+  aside {flex: 50%; padding-left: 1em;}
+}
+/* Nav Bar */
+nav{
+  padding: 0.5em 2em 1.5em 2em;
+  background-color: var(--main-color);
+}
+nav ul {
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+nav a {
+  padding: 1em;
+  color: white;
+  display: block;
+}
+nav a[href=""] {
+  font-weight: bold;
+}
+/* Header Styles */
+header {
+  background-color: var(--main-color);
+  padding: 2em;
+  color: white;
+  text-transform: uppercase;
+}
+header h1 {
+  padding-bottom: 0.5em;
+}
+/* Main */
+
+#twocolumns {
+  padding: 2em;
+}
+main {
+  padding-right: 1em;
+}
+main p {
+  padding-bottom: 1em
+}
+/* Aside */
+aside {
+
+}
